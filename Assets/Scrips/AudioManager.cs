@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            sounds = new List<AudioSource>();
         }
         else 
         { 
@@ -26,7 +27,7 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        sounds = new List<AudioSource>();
+        
     }
 
 
