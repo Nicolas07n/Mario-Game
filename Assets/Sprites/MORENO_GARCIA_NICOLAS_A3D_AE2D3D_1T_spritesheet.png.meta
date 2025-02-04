@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 22718bcd1442a8e44a4f5d14061b35a1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 226
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faafb9d7c8b3fe48b3bc1e98478362a
+      internalID: -1330378496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 227
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eb521717fd916498b3be22214a2a6a
+      internalID: -1073622805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 227
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad87c5ebfaf5f742a67e31960fbb0d5
+      internalID: -1699740638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 226
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ef1442a92b31545a4cff76beb1ca97
+      internalID: 1293941420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 225
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda9f168e575fb45bc04ccbf822f7ea
+      internalID: -370048978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 226
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b26447055cb4024994a719d42e1acff
+      internalID: -587013828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 223
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d06fe10904f094e87d5955c8b18e50
+      internalID: 1889080747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 219
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0717a9667864bc41b2afeb5c5b091da
+      internalID: -964099802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 227
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcf145a07f9e2c48b712da8a5861ccb
+      internalID: 424535123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 104
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2d4a96250f3874aac9f2e53f26a7de
+      internalID: 1602347014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 106
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9b8fe40b16e3a46b9ba2711ea6bb75
+      internalID: 19532894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 105
+        width: 35
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c60e66c9f0be34d8d21bd40cd5aa5c
+      internalID: -1526834401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 106
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38ad288e8a115b4bb76787ae455fe9d
+      internalID: 1244353950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 99
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71567f1eded58b04fb4b07b569576ebf
+      internalID: -1872856725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 101
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c33621deb1978a468c3b60c9673030b
+      internalID: 2102550813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 106
+        width: 40
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a894bd6a1fdd12479428d92a36d0a44
+      internalID: 1816235954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_0: -1330378496
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_1: -1073622805
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_10: 19532894
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_11: -1526834401
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_12: 1244353950
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_13: -1872856725
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_14: 2102550813
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_15: 1816235954
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_2: -1699740638
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_3: 1293941420
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_4: -370048978
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_5: -587013828
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_6: 1889080747
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_7: -964099802
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_8: 424535123
+      MORENO_GARCIA_NICOLAS_A3D_AE2D3D_1T_spritesheet_9: 1602347014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
