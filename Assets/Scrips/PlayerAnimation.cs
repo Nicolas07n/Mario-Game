@@ -11,6 +11,8 @@ public class PlayerAnimation : MonoBehaviour
     private Animator _animator;
     private Movement _Movement;
 
+    public Audioclip
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,4 +38,11 @@ public class PlayerAnimation : MonoBehaviour
 
 
     }
+   
+    public void PlaySound(float volume)
+    {
+        AudioManager.instance.PlayAudio(pewClip,"hgjg",false,volume);
+    }
+
+
 }
