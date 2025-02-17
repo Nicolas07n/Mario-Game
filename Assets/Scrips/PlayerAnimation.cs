@@ -27,11 +27,11 @@ public class PlayerAnimation : MonoBehaviour
         switch (_Movement.GetCurrentState())
         {
             case PlayerState.IDLE:
-                _animator.SetBool("caminando", false); // Corregido: IDLE no camina
+                _animator.SetBool("caminando", true); // Corregido: IDLE no camina
                 break;
 
             case PlayerState.WALKING:
-                _animator.SetBool("caminando", true); // Corregido: WALKING sí camina
+                _animator.SetBool("caminando", false); // Corregido: WALKING sí camina
                 break;
         }
     }
