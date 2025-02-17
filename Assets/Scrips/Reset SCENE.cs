@@ -16,10 +16,11 @@ public class ResetSCENE : MonoBehaviour
     //    // Verificar si el objeto que entra tiene el tag "Player"
     //    if (collision.CompareTag("Player"))
     //    {
-    //        // Reiniciar la posición de Mario
+    //        // Reiniciar la posición de mi personaje
     //        collision.transform.position = posicionInicial;
     //    }
     //}
+    //con lo de arriba lo que hacia era mandarme el persoanje al inicio y usaba tag que no me gustan y a diego tampoco
 
     //{
     private void OnTriggerEnter2D(Collider2D collision)
