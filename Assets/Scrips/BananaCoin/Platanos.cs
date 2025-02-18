@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Platanos : MonoBehaviour
 {
-    // Nombre de la capa del jugador. Asegúrate de que coincida en Unity.
+    // Nombre de la capa del jugador. 
     public string playerLayerName = "Player";
 
     // Variable pública para asignar el AudioClip en el Inspector
@@ -12,20 +12,19 @@ public class Platanos : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Verifica que el objeto que colisiona esté en la capa "Player"
+        // Verifica que el objeto que colisiona esté "en el jugador"
         if (collision.gameObject.layer == LayerMask.NameToLayer(playerLayerName))
         {
-            // Reproduce el sonido de recogida, si se ha asignado y existe el AudioManager
+            // Reproduce el sonido de los platanos
             if (recogidaSound != null && AudioManager.instance != null)
             {
-                AudioManager.instance.PlayAudio(recogidaSound, "RecogidaPlatano", false, 1.0f);
+                AudioManager.instance.PlayAudio(recogidaSound, "RecogidaPlatano", false, 1.0f);// se reproduce el sonido 
             }
 
-            // Sumar puntos o actualizar el contador, por ejemplo:
-            if (ScoreManager.instance != null)
-            {
-                ScoreManager.instance.AddCoin();
-            }
+            
+            
+                ScoreManager.instance.AddCoin();//Suma una moneda
+            
 
             // Destruye el objeto plátano
             Destroy(gameObject);

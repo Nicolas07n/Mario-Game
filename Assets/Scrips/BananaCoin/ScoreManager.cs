@@ -8,7 +8,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
     public int coinCount = 0; // Contador de plátanos
 
-    // Opcional: referencia a un TextMeshProUGUI para mostrar el puntaje en pantalla
+    //pones el text mesh del platano
     public TextMeshProUGUI coinText;
 
     private void Awake()
@@ -16,8 +16,7 @@ public class ScoreManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            // Si deseas que el ScoreManager persista entre escenas, descomenta la siguiente línea:
-            // DontDestroyOnLoad(gameObject);
+           
         }
         else
         {
@@ -29,7 +28,7 @@ public class ScoreManager : MonoBehaviour
     public void AddCoin(int amount = 1)
     {
         coinCount += amount;
-        UpdateUI();
+        UpdateUI();//Actualiza el canvas
     }
 
     // Actualiza la interfaz de usuario (si tienes una)
