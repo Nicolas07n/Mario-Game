@@ -23,7 +23,7 @@ public class GameManger : MonoBehaviour
     public TextMeshProUGUI textoTiempo; // Arrastra aquí el TextMeshPro en el Inspector
     private float tiempo;
 
-    void Update()
+    void Update()//Esto es el crono tambien lo tengo por separado 
     {
         tiempo += Time.deltaTime; // Aumenta el tiempo cada frame
         textoTiempo.text = tiempo.ToString("F2"); // Muestra con 2 decimales
@@ -33,6 +33,6 @@ public class GameManger : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    
     
 }

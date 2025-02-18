@@ -7,7 +7,7 @@ public class Entraraljuego : MonoBehaviour
 {
     public void Entrar()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SampleScene");//con esto entras al juego
 
     }
 }

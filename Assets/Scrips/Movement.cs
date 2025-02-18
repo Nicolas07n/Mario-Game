@@ -52,9 +52,10 @@ public class Movement : MonoBehaviour
             {
                 rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
 
-                if (jumpSound != null && AudioManager.instance != null)
+                if (jumpSound != null && AudioManager.instance != null)//Esta dentro del salto 
                 {
                     AudioManager.instance.PlayAudio(jumpSound, "JumpSound", false, 1.0f);
+                    //audiomanager instanciuate y reproduce el sonido jumpsound (nombre del sonido) false para que no se repita en loop. el uno es el volumen.
                 }
 
 

@@ -13,7 +13,7 @@ public class Musicadefondo : MonoBehaviour
     
     void Start()
     {
-        AudioManager.instance.PlayAudio(musicSource,"Music", isLoop,volumen);
+        AudioManager.instance.PlayAudio(musicSource,"Music", isLoop,volumen);//esto es la musica
     }
 
     // Update is called once per frame

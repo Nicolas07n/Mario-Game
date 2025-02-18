@@ -31,7 +31,7 @@ public class ScoreManager : MonoBehaviour
         UpdateUI();//Actualiza el canvas
     }
 
-    // Actualiza la interfaz de usuario (si tienes una)
+    // Actualiza la interfaz de usuario 
     private void UpdateUI()
     {
         if (coinText != null)
