@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 102
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,7 +409,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sprites
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -417,16 +417,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\NICOLAS\2Trimestre\D-Proyecto multimedias\Mario plataforma\MarioPlataformasGit\Mario-Game
+  m_LastProjectPath: "D:\\Fp\\2 A\xF1o FP\\2 trimestre\\D-Proyecto Multimedias\\Mario-Game"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: a8610000
-    m_LastClickedID: 25000
-    m_ExpandedIDs: 000000009e610000aa61000000ca9a3bffffff7f
+    m_SelectedIDs: 30060000
+    m_LastClickedID: 1584
+    m_ExpandedIDs: 0000000004060000a006000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,7 +454,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e610000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,7 +482,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a03f0000ee700000
+    m_ExpandedInstanceIDs: c6230000a03f0000ee7000009ca80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -594,9 +594,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3ae0feffb4e1feffae18ffffb45affffa65cffff8e74ffff0c84ffff2685ffffba85ffff2888ffffb69affff389bffffd89dffffaca1ffff98bafffffcbaffff58bcffff88ceffffa6ceffffccddffffeee1ffff84f5ffff9c7d00009291000038950000ae9700002898000088a40000aca40000c4b10000d6b1000030b600006cb7000090b70000961f0100
+      m_SelectedIDs: 224dfeff
+      m_LastClickedID: -111326
+      m_ExpandedIDs: 224dfeffd86bfeffc8b9feff6cc5feffdec6feff38c8feff2adf00005ae00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -917,7 +917,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -989,9 +989,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 463.04678, y: 332.7182, z: -5.3156137}
+    m_Target: {x: 6.8790245, y: 3.8968697, z: -0.16139352}
     speed: 2
-    m_Value: {x: 463.04678, y: 332.7182, z: -5.3156137}
+    m_Value: {x: 6.8790245, y: 3.8968697, z: -0.16139352}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1027,13 +1027,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -1041,9 +1041,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 378.7907
+    m_Target: 20.107214
     speed: 2
-    m_Value: 378.7907
+    m_Value: 20.107214
   m_Ortho:
     m_Target: 1
     speed: 2
