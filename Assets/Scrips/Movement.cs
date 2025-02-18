@@ -22,8 +22,8 @@ public class Movement : MonoBehaviour
     public GameObject jugador;
 
     public Vector3 posicionInicial;//posicion inicial del personaje
-    
-    
+
+    public AudioClip jumpSound;
 
     // Variable para comprobar si Mario está en el suelo
     private PlayerState _currentState;
@@ -51,8 +51,20 @@ public class Movement : MonoBehaviour
             if (UnityEngine.Input.GetKeyDown(KeyCode.Space))
             {
                 rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
-            
-            } 
+
+                if (jumpSound != null && AudioManager.instance != null)
+                {
+                    AudioManager.instance.PlayAudio(jumpSound, "JumpSound", false, 1.0f);
+                }
+
+
+
+            }
+
+
+
+
+
         }
         if (rb.velocity.magnitude == 0)
         {
