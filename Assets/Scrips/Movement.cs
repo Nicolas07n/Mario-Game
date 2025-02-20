@@ -59,7 +59,7 @@ public class Movement : MonoBehaviour
                 }
 
 
-                StartCoroutine(SlowMotionCoroutine());
+                StartCoroutine(SlowMotion());
             }
 
 
@@ -81,14 +81,14 @@ public class Movement : MonoBehaviour
 
     
     }
-    IEnumerator SlowMotionCoroutine()
+    IEnumerator SlowMotion()
     {
         // Establece la escala de tiempo reducida (por ejemplo, 0.5 para la mitad de velocidad)
         Time.timeScale = 0.5f;
         
 
         // Espera 0.5 segundos en tiempo real (no afectado por la escala de tiempo)
-        yield return new WaitForSecondsRealtime(10.5f);
+        yield return new WaitForSecondsRealtime(1.0f);
 
         // Restaura la escala de tiempo a la normalidad
         Time.timeScale = 1f;
