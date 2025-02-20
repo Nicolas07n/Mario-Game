@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
     public AudioClip jumpSound;
 
     // Variable para comprobar si Mario está en el suelo
-    private PlayerState _currentState;
+    private PlayerState _currentState;//si se esta moviendo etc
 
 
 
