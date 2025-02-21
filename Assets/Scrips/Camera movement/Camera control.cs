@@ -9,7 +9,7 @@ public class Cameracontrol : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = FindObjectOfType<Movement>().gameObject;//esto es el un movetowars basico lo tienes en la galeria nico
+        player = FindObjectOfType<Movement>().gameObject;//camera
     }
 
     // Update is called once per frame
