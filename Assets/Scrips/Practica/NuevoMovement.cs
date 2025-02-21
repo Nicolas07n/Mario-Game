@@ -5,28 +5,25 @@ using UnityEngine;
 
 public class NuevoMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     private Rigidbody2D rb2D;
-    
     private Vector2 direction;
-    
     public float speed = 1;
-
-    private Vector2 dir;//
-    private SpriteRenderer _rend;//
-    public KeyCode rightKey = KeyCode.D;  // Tecla para mover a la derecha
+    
+    private Vector2 dir;
+    private SpriteRenderer _rend;
+    public KeyCode rightKey = KeyCode.D;
     public KeyCode leftKey = KeyCode.A;
 
+    // Usamos un LayerMask para el suelo, similar al script de referencia.
+    public LayerMask Ground;  // Asigna en el Inspector la capa de tu Tilemap Collider 2D
+    private PlayerState _currentState;
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        
         _rend = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         direction = new Vector2(Input.GetAxis("Horizontal"), 0);
@@ -43,16 +40,14 @@ public class NuevoMovement : MonoBehaviour
             dir = new Vector2(-1, 0);
         }
 
+       
 
+       
+
+        
     }
-
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        rb2D.velocity = new Vector2(direction.x * speed, rb2D.velocity.y);
-    }
-
-
-
-
-
+            rb2D.velocity = new Vector2(direction.x * speed, rb2D.velocity.y);
+    }    
 }
