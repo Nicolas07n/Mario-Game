@@ -22278,7 +22278,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767463502}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a90e3ff1ccc85843aa8ca870674d266, type: 3}
   m_Name: 
@@ -22335,9 +22335,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  jumpForce: 1
+  heightToScan: 2
   rightKey: 100
   leftKey: 97
-  Ground:
+  grndMask:
     serializedVersion: 2
     m_Bits: 0
 --- !u!1 &1783347144
